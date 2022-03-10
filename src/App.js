@@ -8,7 +8,7 @@ function App() {
       <br></br>
       <br></br>
       <ul>
-        <li><NavLink to='/'>About me</NavLink></li>
+        <li><NavLink to='/react-resume'>About me</NavLink></li>
         <li><NavLink to='/skills'>skills</NavLink></li>
         <li><NavLink to='/projects'>projects</NavLink></li>
         <li><NavLink to='/contacts'>contacts</NavLink></li>
@@ -20,7 +20,8 @@ function App() {
       <div className={s.content}>
 
         <Routes>
-          <Route path='/*' element={<div>About me</div>} />
+          <Route path='/*' element={<div>Error</div>} />
+          <Route path='/react-resume' element={<div>About me</div>} />
           <Route path='/skills' element={<div>skills</div>} />
           <Route path='/projects' element={<div>projects</div>} />
           <Route path='/contacts' element={<div>contacts</div>} />
