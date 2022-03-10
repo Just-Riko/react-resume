@@ -6,7 +6,7 @@ function App() {
     <div className={s.sidebar}>
       Sidebar
       <br></br>
-      <br></br>
+      <br></br> 
       <ul>
         <li><NavLink to='/'>About me</NavLink></li>
         <li><NavLink to='/skills'>skills</NavLink></li>
