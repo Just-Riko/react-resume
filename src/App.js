@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { NavLink, Route, Routes } from 'react-router-dom';
+import s from './App.module.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello...
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (<div className={s.wrapper}>
+    <div className={s.sidebar}>
+      Sidebar
+      <br></br>
+      <br></br>
+      <ul>
+        <li><NavLink to='/'>About me</NavLink></li>
+        <li><NavLink to='/skills'>skills</NavLink></li>
+        <li><NavLink to='/projects'>projects</NavLink></li>
+        <li><NavLink to='/contacts'>contacts</NavLink></li>
+      </ul>
     </div>
-  );
+
+    <div className={s.block}>
+      <div className={s.header}>Header</div>
+      <div className={s.content}>
+
+        <Routes>
+          <Route path='/*' element={<div>About me</div>} />
+          <Route path='/skills' element={<div>skills</div>} />
+          <Route path='/projects' element={<div>projects</div>} />
+          <Route path='/contacts' element={<div>contacts</div>} />
+        </Routes>
+
+      </div>
+    </div>
+
+  </div>)
 }
 
 export default App;
