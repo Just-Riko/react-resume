@@ -20,7 +20,7 @@ function App() {
       <div className={s.content}>
 
         <Routes>
-          <Route path='/' element={<div>About me</div>} />
+          <Route path='/*' element={<div>About me</div>} />
           <Route path='/skills' element={<div>skills</div>} />
           <Route path='/projects' element={<div>projects</div>} />
           <Route path='/contacts' element={<div>contacts</div>} />
