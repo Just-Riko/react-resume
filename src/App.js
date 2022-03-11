@@ -1,35 +1,27 @@
-import { NavLink, Route, Routes } from 'react-router-dom';
 import s from './App.module.css'
+import Sidebar from './components/sidebar/Sidebar';
+import { useState } from 'react';
+import CurrentPage from './components/CurrentPage/CurrentPage';
 
 function App() {
-  return (<div className={s.wrapper}>
-    <div className={s.sidebar}>
-      Sidebar
-      <br></br>
-      <br></br> 
-      <ul>
-        <li><NavLink to='/'>About me</NavLink></li>
-        <li><NavLink to='/skills'>skills</NavLink></li>
-        <li><NavLink to='/projects'>projects</NavLink></li>
-        <li><NavLink to='/contacts'>contacts</NavLink></li>
-      </ul>
-    </div>
 
-    <div className={s.block}>
-      <div className={s.header}>Header</div>
+  let [page, setPage] = useState('About Me')
+
+  return (
+    <div className={s.wrapper}>
+
+
+      <div className={s.header}><span className={s.span1}>Pavlo</span> <span className={s.span2}>Kitchak</span></div>
+      <div className={s.underHeader}>Trainee/Junior Front-end developer</div>
+      <Sidebar click={setPage} />
       <div className={s.content}>
 
-        <Routes>
-          <Route path='/*' element={<div>About me</div>} />
-          <Route path='/skills' element={<div>skills</div>} />
-          <Route path='/projects' element={<div>projects</div>} />
-          <Route path='/contacts' element={<div>contacts</div>} />
-        </Routes>
+        <CurrentPage page={page} />
 
       </div>
-    </div>
 
-  </div>)
+    </div>
+  )
 }
 
 export default App;
