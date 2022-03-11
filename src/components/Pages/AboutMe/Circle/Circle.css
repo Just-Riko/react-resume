@@ -1,0 +1,7 @@
+.CircularProgressbar-path {
+    stroke: cadetblue !important;
+}
+.CircularProgressbar-text {
+    fill: black !important;
+    font-size: 30px !important;
+}

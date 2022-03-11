@@ -1,4 +1,5 @@
 import s from './AboutMe.module.css'
+import Circle from './Circle/Circle'
 
 let AboutMe = () => {
     return (
@@ -12,9 +13,12 @@ let AboutMe = () => {
                 image carousel. React in progress.
             </p>
             <h3 className={s.header}>Skills</h3>
-            <p className={s.text}>
-                HTML, CSS, JS, React, Redux
-            </p>
+            <ul className={s.list}>
+                <Circle number="80" text="HTML" />
+                <Circle number="75" text="CSS" />
+                <Circle number="75" text="JS" />
+                <Circle number="60" text="React/Redux" />
+            </ul>
             <h3 className={s.header}>English</h3> Upper-Intermediate
         </>
     )

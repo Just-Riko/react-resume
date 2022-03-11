@@ -6,3 +6,11 @@
     max-width: 600px;
     margin: auto;
 }
+.list{
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
