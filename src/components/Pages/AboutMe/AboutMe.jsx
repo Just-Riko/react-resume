@@ -1,7 +1,13 @@
+import { useState } from 'react'
 import s from './AboutMe.module.css'
 import Circle from './Circle/Circle'
 
 let AboutMe = () => {
+
+    let [progres, setProgres] = useState([0, 0, 0, 0])
+
+    setTimeout(() => setProgres([80, 75, 75, 60]), 200)
+
     return (
         <>
             <h3 className={s.header}>Trainee/Junior Front-end developer</h3>
@@ -14,10 +20,10 @@ let AboutMe = () => {
             </p>
             <h3 className={s.header}>Skills</h3>
             <ul className={s.list}>
-                <Circle number="80" text="HTML" />
-                <Circle number="75" text="CSS" />
-                <Circle number="75" text="JS" />
-                <Circle number="60" text="React/Redux" />
+                <Circle number={progres[0]} text="HTML" />
+                <Circle number={progres[1]} text="CSS" />
+                <Circle number={progres[2]} text="JS" />
+                <Circle number={progres[3]} text="React" />
             </ul>
             <h3 className={s.header}>English</h3> Upper-Intermediate
         </>

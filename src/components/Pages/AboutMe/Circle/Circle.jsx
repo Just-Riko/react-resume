@@ -6,7 +6,7 @@ import './Circle.css'
 let Circle = props => {
     return (
         <li className={s.li}>
-            <div className={s.circle}><CircularProgressbar value={props.number} maxValue={100} text={props.number} /></div>
+            <div className={s.circle}><CircularProgressbar value={props.number} maxValue={100} text={`${props.number}%`} /></div>
             {props.text}
         </li>
     )

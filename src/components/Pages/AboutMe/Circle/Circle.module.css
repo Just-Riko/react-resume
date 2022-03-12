@@ -1,9 +1,10 @@
 .circle{
     width: 80px;
     height: 80px;
-    margin: auto;
+    font-family: 'Hind Madurai', sans-serif;
 }
 .li{
-    width: 120px;
+    width: fit-content;
     font-size: 26px;
+    margin: auto;
 }
