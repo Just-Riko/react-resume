@@ -15,3 +15,48 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.note{
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    color: gray;
+}
+.english{
+    margin: 0;
+}
+.ball{
+    border: 3px solid gray;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: white;
+    z-index: 2;
+}
+.balls{
+    padding: 20px;
+    max-width: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    margin: auto;
+}
+.spanText{
+    transform: rotate(-45deg);
+    display: block;
+    margin: 3px;
+}
+.line{
+    border: 1px solid gray;
+    width: 60%;
+    height: 70px;
+    position: relative;
+    top: -110px;
+    margin: auto;
+    border-left: 0;
+}
+.englishBlock{
+    max-width: 450px;
+    margin: auto;
+    z-index: 1;
+}

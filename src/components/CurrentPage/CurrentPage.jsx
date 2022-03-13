@@ -8,6 +8,7 @@ let CurrentPage = (props) => {
     let [progres, setProgres] = useState([0, 0, 0, 0])
 
     useEffect(() => {
+        console.log("I decided to use this type Router not because I don't know how to use react-router, that's interim solution because of github bug with BrowserRouter")
         setTimeout(() => setProgres([80, 75, 75, 60]), 200)
     }, [])
 
