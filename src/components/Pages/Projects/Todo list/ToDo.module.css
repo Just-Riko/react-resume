@@ -1,0 +1,24 @@
+.element{
+    border: 1px solid gray;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.block{
+    margin: auto;
+    max-width: 400px;
+}
+.add{
+    font-weight: 600;
+    cursor: pointer;
+}
+.note{
+    font-size: 18px;
+    color: gray;
+}
+.addBlock{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-width: 380px;
+    margin: auto;
+}
