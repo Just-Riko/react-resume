@@ -39,9 +39,11 @@ let Todo = () => {
     }
 
     return (<div className={s.block}>
-        {list.map((i, ind) => {
+        {list.length == 0 
+        ? <div className={s.noToDos}>- No ToDos -</div>
+        : list.map((i, ind) => {
             return <div className={s.element} key={ind}>
-                <span style={{ textDecoration: i.status ? 'none' : 'line-through' }}>{i.text}</span>
+                <span style={{ textDecoration: i.status ? 'none' : 'line-through', textAlign: 'start', padding: '0 0 0 30px' }}>{i.text}</span>
                 {i.status
                     ? <span onClick={() => greenButton(i.id)} style={{ color: 'green', cursor: 'pointer' }}>&#9745;</span>
                     : <span onClick={() => setList([...list.filter(x => x.id != i.id)])} style={{ color: 'darkred', cursor: 'pointer' }}>&#9746;</span>}

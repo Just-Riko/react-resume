@@ -47,8 +47,8 @@ let Projects = () => {
                 </div>
                 : null}
 
-            <hr style={{width: '400px'}} />
-            <p style={{fontSize: '28px', margin: '0 0 10px 0'}}>Common ToDo List</p>
+            <hr style={{maxWidth: '400px'}} />
+            <p style={{fontSize: '28px', margin: '20px 0 10px 0'}}>Common ToDo List</p>
             <Todo />
             <div style={{height: '20px'}}></div>
         </div>
