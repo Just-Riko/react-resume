@@ -7,11 +7,10 @@ let AboutMe = props => {
         <>
             <h3 className={s.header}>Trainee/Junior Front-end developer</h3>
             <p className={s.text}>
-                Don't have work experience, yet. Learning fast, self-motavated,
-                have good understanding of algorithms, good knowledge of HTML, CSS, JS.
-                Learning React/Redux, plan to study Typescript in the nearby future.
-                Want to improve skills, earn experiance and grow as Front-end
-                or Fullstack developer in progressive company.
+                Well motivated, ambitious and responsible Front-end developer. Work with HTML,
+                CSS (including grid and flex layouts) + Sass preprocessor , JavaScript, React and Redux.
+                Ready to learn new technologies and improve in already learned knowledge.
+                Wish to earn commercial experience and realize myself in promising, friendly company.
             </p>
             <h3 className={s.header}>Skills</h3>
             <ul className={s.list}>
