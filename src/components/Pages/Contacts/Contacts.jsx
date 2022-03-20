@@ -7,7 +7,7 @@ let Contacts = () => {
             <ul>
                 <li><span>Telegram</span><span>@JebbUniverse</span></li>
                 <li><span>Instagram</span><a target="_blank" href='https://www.instagram.com/jebb_universe/'>@jebb_universe</a></li>
-                <li><span>LinkedIn</span><span>Pavlo Kitchak</span></li>
+                <li><span>LinkedIn</span><a target="_blank" href='https://ua.linkedin.com/in/pavlo-kitchak-ba4424234'>Pavlo Kitchak</a></li>
                 <li><span>GitHub</span><a target="_blank" href='https://github.com/Just-Riko'>Just-Riko</a></li>
             </ul>
         </div>
