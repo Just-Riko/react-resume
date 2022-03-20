@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import s from './ToDo.module.css'
+import s from './ToDo.module.sass'
 
 let Todo = () => {
 

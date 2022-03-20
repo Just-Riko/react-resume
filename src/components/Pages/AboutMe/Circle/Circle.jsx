@@ -1,6 +1,6 @@
 import { CircularProgressbar } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css'
-import s from './Circle.module.css'
+import s from './Circle.module.sass'
 import './Circle.css'
 
 let Circle = props => {

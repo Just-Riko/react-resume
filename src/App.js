@@ -1,4 +1,4 @@
-import s from './App.module.css'
+import s from './App.module.sass'
 import Sidebar from './components/sidebar/Sidebar';
 import { useState } from 'react';
 import CurrentPage from './components/CurrentPage/CurrentPage';

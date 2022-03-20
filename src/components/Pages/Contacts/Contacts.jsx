@@ -1,4 +1,4 @@
-import s from './Contacts.module.css'
+import s from './Contacts.module.sass'
 
 let Contacts = () => {
     return (<div className={s.block}>

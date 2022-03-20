@@ -1,4 +1,4 @@
-import s from './Projects.module.css'
+import s from './Projects.module.sass'
 import left from './../../../svg/left.svg'
 import right from './../../../svg/right.svg'
 

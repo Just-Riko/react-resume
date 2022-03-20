@@ -1,4 +1,4 @@
-import s from './AboutMe.module.css'
+import s from './AboutMe.module.sass'
 import Circle from './Circle/Circle'
 
 let AboutMe = props => {
