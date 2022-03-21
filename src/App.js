@@ -1,11 +1,15 @@
 import s from './App.module.sass'
 import Sidebar from './components/sidebar/Sidebar';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import CurrentPage from './components/CurrentPage/CurrentPage';
 
 function App() {
 
-  let [page, setPage] = useState('About Me')
+  let [page, setPage] = useState(localStorage.getItem('currentPage') || 'About Me')
+
+  useEffect(() => {
+    localStorage.setItem('currentPage', page)
+  }, [page])
 
   return (
     <div className={s.wrapper}>

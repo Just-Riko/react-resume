@@ -1,26 +1,31 @@
 .block
     margin: auto
-    max-width: 400px
+    width: 400px
+    border: 1px solid #e4e4e4
+    box-shadow: 1px 1px 2px #cccccc
+    padding: 10px 10px 0 10px
+    input
+        width: 380px
+        padding: 0 10px
+        font-size: 18px
+        height: 30px
+        text-align: center
+        border: 0
+        border-bottom: 1px solid gray
+        &:focus
+            outline: 0
+            border-bottom: 2px solid cadetblue
+            box-shadow: 0.5px 0 2px gray
 .element
-    border: 1px solid gray
-    margin: 10px
+    border: 1px solid #cccccc
+    margin: 10px 0
     display: grid
     grid-template-columns: 4fr 1fr
-.add
-    font-weight: 600
-    cursor: pointer
 .note
     font-size: 18px
     color: gray
-.addBlock
-    display: grid
-    grid-template-columns: 3fr 1fr
-    max-width: 380px
-    margin: auto
 .noToDos
     font-size: 30px
-    margin: 0 auto 10px auto
-    border: 1px solid gray
+    margin: 20px auto 20px auto
     width: 200px
-    border-radius: 30px
-    box-shadow: 1px 1px 2px gray
+    color: cadetblue
