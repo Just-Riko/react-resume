@@ -1,12 +1,12 @@
 .block
     margin: auto
-    width: 400px
+    max-width: 400px
     border: 1px solid #e4e4e4
     box-shadow: 1px 1px 2px #cccccc
     padding: 10px 10px 0 10px
     input
-        width: 380px
-        padding: 0 10px
+        width: 100%
+        padding: 0
         font-size: 18px
         height: 30px
         text-align: center
@@ -29,3 +29,7 @@
     margin: 20px auto 20px auto
     width: 200px
     color: cadetblue
+@media screen and (orientation: portrait)
+    .block
+        input
+            font-size: 22px
