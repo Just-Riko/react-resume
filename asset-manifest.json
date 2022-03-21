@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.176fe330.css",
+    "main.css": "/react-resume/static/css/main.e4a57f85.css",
     "main.js": "/react-resume/static/js/main.14dc8e4b.js",
     "static/js/787.be9df7c6.chunk.js": "/react-resume/static/js/787.be9df7c6.chunk.js",
     "static/media/market1.jpg": "/react-resume/static/media/market1.97ea8e77dccc3ab7545f.jpg",
@@ -10,12 +10,12 @@
     "index.html": "/react-resume/index.html",
     "static/media/right.svg": "/react-resume/static/media/right.73e5216021841387acb74ea6f41df8c8.svg",
     "static/media/left.svg": "/react-resume/static/media/left.803cef6acc16a5b40be1b08dec775495.svg",
-    "main.176fe330.css.map": "/react-resume/static/css/main.176fe330.css.map",
+    "main.e4a57f85.css.map": "/react-resume/static/css/main.e4a57f85.css.map",
     "main.14dc8e4b.js.map": "/react-resume/static/js/main.14dc8e4b.js.map",
     "787.be9df7c6.chunk.js.map": "/react-resume/static/js/787.be9df7c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.176fe330.css",
+    "static/css/main.e4a57f85.css",
     "static/js/main.14dc8e4b.js"
   ]
 }
